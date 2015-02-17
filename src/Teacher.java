@@ -62,4 +62,13 @@ public class Teacher extends Person {
 	public void setSalary(double inSalary) {
 		salary = inSalary;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Person [firstName=" + super.getFirstName() + ", lastName=" + super.getLastName() + ", age=" + super.getAge() + ", house=" + super.getHouse() + "] Teacher [subject=" + subject + ", yrsOfService=" + yrsOfService + ", salary=" + salary + "]";
+	}
+	
 }

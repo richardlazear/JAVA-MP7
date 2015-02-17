@@ -69,4 +69,12 @@ public class Person {
 	public void setHouse(String inHouse) {
 		house = inHouse;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", house=" + house + "]";
+	}
 }

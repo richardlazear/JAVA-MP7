@@ -62,4 +62,13 @@ public class Student extends Person {
 	public void setLockerNumber(int inLockerNumber) {
 		lockerNumber = inLockerNumber;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Person [firstName=" + super.getFirstName() + ", lastName=" + super.getLastName() + ", age=" + super.getAge() + ", house=" + super.getHouse() + "] Student [gradYear=" + gradYear + ", advisory=" + advisory + ", lockerNumber=" + lockerNumber + "]";
+	}
+	
 }
