@@ -16,6 +16,8 @@ public class MP7 {
 		Person person1 = new Person();
 		person1.setFirstName("Richie");
 		person1.setLastName("Lazear");
+		person1.setAge(18);
+		person1.setHouse("Hoodwink");
 		
 		System.out.println(person1.toString());
 		// End Person 1
